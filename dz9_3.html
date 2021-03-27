@@ -25,7 +25,30 @@
 			<li>Student`s info</li>
 			<li>Change password</li>
 		</ul>
-
+		<div class="form">
+     <form action="#" method="post" id="avatar">
+     	<img src="av_256.png" alt="ava">
+     	<input type="file" id="ava">
+     	<label for="ava">
+     		<div class="photo">Choose foto</div>
+     	</label>
+     </form>
+      <form action="#" method="post" id="info" >
+     	<input type="text"  required placeholder="First name" maxlength="20">
+     	<input type="text" required placeholder="Last name" maxlength="20">
+     	<input type="email" required placeholder="Email" maxlength="40">
+     	<input type="tel" required placeholder="Phone number" maxlength="13" pattern="[\+]\d{3}\d{2}\d{3}\d{2}\d{2}">
+     	<input type="text" required placeholder="Address" maxlength="20">
+     	<input type="url" required placeholder="FB link" maxlength="100">
+     	<input type="submit" value="Save changes">
+     </form>
+      <form action="#" method="post" id="pass" >
+     	<input type="password"  required placeholder="Old password" maxlength="20">
+     	<input type="password" required placeholder="New password" maxlength="20">
+     	<input type="password" required placeholder="Repeat password" maxlength="20">
+     	<input type="submit" value= "Change password">
+     </form>
+ </div>
 	</div>
 </body>
 </html>

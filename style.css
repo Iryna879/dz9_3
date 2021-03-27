@@ -59,9 +59,7 @@ ul{
 .forms{
 	width: 90%;
 	margin-top: 40px;
-	margin-left: 50px;
-	background-color: #cce5ff;
-	border-radius: 5px;
+	margin-left: 50px;	
 }
 
 .forms ul{
@@ -69,9 +67,57 @@ ul{
     justify-content: space-around;
     height: 50px;
     align-items: center;
+    background-color: #cce5ff;
+    border-radius: 5px;
 
 }
 .forms ul li{
 	color: #364d84;
 	text-transform: uppercase;
 }
+
+.forms img {
+	width: 140px;
+	height: 140px;
+	margin-bottom: 10px;
+}
+
+.forms img, .forms input {
+	display: block;
+}
+#ava{
+	display: none;
+}
+.photo{
+	display: flex;
+	width: 150px;
+	height: 35px;
+	align-items: center;
+	justify-content: center;
+	background-color: #6c757d;
+	color:#fff4e1;
+	border-radius: 5px;
+}
+
+label{
+	cursor: pointer;
+}
+
+.form{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+#avatar{
+	width: 20%;
+}
+#info, #pass{
+	width: 40%;
+}
+#info input, #pass input{
+	width: 90%;
+	margin-top: 30px;
+	height: 35px;
+}
+
+
