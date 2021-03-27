@@ -55,3 +55,23 @@ ul{
 	font-size: 24px;
 	margin-top: 30px;
 }
+
+.forms{
+	width: 90%;
+	margin-top: 40px;
+	margin-left: 50px;
+	background-color: #cce5ff;
+	border-radius: 5px;
+}
+
+.forms ul{
+	display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+
+}
+.forms ul li{
+	color: #364d84;
+	text-transform: uppercase;
+}
